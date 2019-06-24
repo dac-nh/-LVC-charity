@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS -->
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../static/css/home.css  " rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Bekind</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Liên hệ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<header class="rounded mb-0">
+    <div class="container text-center">
+        <h1 class="title display-4">
+            <span class="span-title"><b>Từ thiện</b></span> đang ở khu vực của bạn
+        </h1>
+        <p style="color: white">Không biết làm gì khác ngoài từ thiện</p>
+    </div>
+
+    <div class="container col-12 rounded section">
+        <div class="col-12 text-center">
+            <p>Thông minh, tốt bụng... Đẹp trai thì không phải bàn!</p>
+        </div>
+    </div>
+</header>
+
+<div class="container row col-md-12 text-center rounded mb-auto" style="padding-top: 50px; padding-bottom: 50px;">
+    <div class="row offset-2 col-8">
+        <div class="col-6">
+            <h4>
+                <span><i class="fas fa-map-marked-alt"></i> Thành phố</span>
+            </h4>
+            <select id="location" class="selectpicker show-tick" data-style="btn-primary"
+                    multiple data-actions-box="true" data-width="fit">
+                <option>Hồ Chí Minh</option>
+                <option>Hà Nội</option>
+                <option>Đà Nẵng</option>
+            </select>
+        </div>
+
+
+        <div class="col-6">
+            <h4>
+                <span><i class="fas fa-fist-raised"></i> Hình thức</span>
+            </h4>
+            <select id="type" class="selectpicker show-tick" data-style="btn-primary"
+                    multiple data-actions-box="true" data-width="fit">
+                <option>Tiền</option>
+                <option>Dịch vụ</option>
+                <option>Khác</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- CONTENT -->
+<div class="row col-12">
+    <div class="container col-3 rounded content">
+
+    </div>
+    <div id="jar" class="container offset-1 col-8">
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+        <div class="row col-12 rounded content">
+            <h5 class="col-12"><a href="https://facebook.com">Những đứa cons biệt động Sài Gòn</a></h5>
+            <div class="col-5">
+                <p><i>Nguồn:</i> Kindmate.vn<br><i>Địa điểm:</i> TP HCM</p>
+            </div>
+            <div class="offset-1 col-6">
+                <p><i>Số điện thoại:</i> 090909090<br>
+                    <i>Số tài khoản:</i> 09090909090909</p>
+            </div>
+            <div class="col-12" style="margin-top: -16px;">
+                <p><i>Đối tượng nguyên góp:</i> abc, xyz</p>
+            </div>
+            <div class="col-12">
+                <p>Có con chim vành khuyên mập. Nó trông thật dư côn quá! Mặt sẹo đầu đinh đánh chết cha xóm làng.
+                    Chim gặp bác chào mào bầm tím, chim gặp cô chim khuyên bầm xanh, chim gặp chị sáo nâu bầm dập. Có
+                    con chim vành khuyên mập!</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 text-center">
+        <nav>
+            <ul class="pagination justify-content-center pagination-sm">
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="row bg-dark">
+        <div class="container col-12">
+            <ul class="list-unstyled list-inline text-center" style="font-size: xx-large;">
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i
+                        class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        </hr>
+    </div>
+    </div>
+</section>
+<!-- ./Footer -->
+
+<!-- JS -->
+<script src="../static/js/jquery-3.4.1.js"></script>
+<script src="../static/js/popper.min.js"></script>
+<script src="../static/bootstrap/js/bootstrap.js"></script>
+<script src="../static/js/bootstrap-select.min.js"></script>
+<script src="../static/fontawesome-free-5.9.0-web/js/all.js"></script>
+<script type="text/javascript" src="../static/js/home.js"></script>
+
+</body>
+</html>

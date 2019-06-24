@@ -1,0 +1,50 @@
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    font-family: varela round, sans-serif;
+    background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("../image/background.png");
+);
+}
+
+div.mar-bottom {
+    margin-bottom: 20px;
+}
+
+div.content {
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 13px;
+}
+
+div.section {
+    background-color: #415EA2;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: white;
+    position: relative;
+    top: 110px;
+}
+
+.selectpicker {
+    background-color: #245DF5;
+}
+
+h1.title {
+    color: white;
+}
+
+span.span-title {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    background-color: #415EA2;
+    color: white;
+}
